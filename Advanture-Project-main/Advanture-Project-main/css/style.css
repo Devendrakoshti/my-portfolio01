@@ -306,7 +306,7 @@
     
     .port .read .box .look {
         display: grid;
-        grid-template-columns: 255px 255px;
+        grid-template-columns: 1fr 1fr;
         gap: 20px;
     }
     /* port div END */

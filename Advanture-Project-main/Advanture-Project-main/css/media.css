@@ -91,9 +91,9 @@
     .port .read .box {
         grid-template-columns: 1fr;
     }
-    .port .read .box .look {
+    /* .port .read .box .look {
         grid-template-columns: 220PX 220PX;
-    }
+    } */
     .swim {
         grid-template-columns: 2fr;
     }
