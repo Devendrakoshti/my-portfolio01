@@ -7,7 +7,7 @@
 .main1 {
     height: 600px;
     width: 100%;
-    background: url(../img/background/pxfuel1.jpg);
+    background: url(../Img/background/pxfuel1.jpg);
     filter: blur(3px);
     background-repeat: no-repeat;
     background-size: 100% 100%;
@@ -56,7 +56,7 @@
 .project_tag .project_farming {
     height: 550px;
     width: 90%;
-    background: linear-gradient(rgba(0, 0, 0, .6), rgba(0, 0, 0, .6)), url(../img/project/Screenshot\ \(5\).png);
+    background: linear-gradient(rgba(0, 0, 0, .6), rgba(0, 0, 0, .6)), url(../Img/project/Screenshot\ \(5\).png);
     background-size: cover;
     background-position: center;
     margin: 50px 0;
@@ -187,7 +187,7 @@
 
 .skill_tag {
     /* height: 700px; */
-    background: url(../img/background/pxfuel.jpg);
+    background: url(../Img/background/pxfuel.jpg);
     padding: 50px 0;
     background-size: 100% 100%;
     background-attachment: fixed;
