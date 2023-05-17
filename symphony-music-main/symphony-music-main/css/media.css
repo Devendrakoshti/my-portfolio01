@@ -1,0 +1,107 @@
+@media (max-width:500px) {
+    .main .navbar h1 {
+        font-size: 30px;
+        /* background: yellow; */
+    }
+    .main .navbar h1 img {
+        top: 0;
+        left: 180px;
+    }
+    .main .navbar ul li {
+        display: none;
+    }
+    .main .navbar ul .fa {
+        display: block;
+        margin: 5px 180px;
+    }
+    .main {
+        background-size: cover;
+        height: 390px;
+    }
+    .main .music {
+        height: 200px;
+        width: 80%;
+        /* height: 250px; */
+        margin: 75px auto;
+    }
+    .main .music .p1 {
+        font-size: 120px;
+    }
+    .main .music .p2 {
+        top: 15px;
+        left: 10px;
+    }
+    .rock .dj {
+        width: 80%;
+    }
+    .rock .dj .ins .line {
+        left: 95px;
+    }
+    .chin .wel {
+        width: 80%;
+        margin: 50px 0 0 90px;
+    }
+    .chin .sym {
+        width: 100%;
+        margin: 30px 0px;
+        padding: 0px;
+    }
+    .chin .wel img {
+        height: 350px;
+        width: 70%;
+    }
+    .chin .sym h1 {
+        font-size: 25px;
+    }
+    .black .exa .lov .mon {
+        width: 100%;
+    }
+    .black .exa .lov .tue {
+        width: 100%;
+        margin: 0px;
+        padding: 0px;
+    }
+    .sub {
+        display: block;
+        padding-left: 10px;
+    }
+    .sub .yul {
+        display: flex;
+    }
+    .sub .him {
+        width: 300px;
+    }
+    .sub .send {
+        width: 115px;
+    }
+    .our .sel {
+        width: 100%;
+    }
+    .rele div {
+        font-size: 25px;
+    }
+    .stat {
+        height: 245px;
+    }
+    .stat .slack {
+        height: 200px;
+    }
+    /* .stat .slack .gfd .mal .gra {
+        font-size: 10PX;
+        top: 10px;
+        left: -100%;
+    }
+    .stat .slack .gfd .mal .X {
+        font-size: 10PX;
+        top: 20px;
+        left: -100%;
+    }
+    .stat .slack .gfd .mal .y {
+        font-size: 10PX;
+        top: 90px;
+        left: -100%;
+    } */
+    .foot .day .twi {
+        width: 100%;
+    }
+}

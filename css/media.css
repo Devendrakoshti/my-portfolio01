@@ -1,0 +1,91 @@
+@media (max-width:500px) {
+    .main .main1 {
+        height: 250px;
+        width: 100%;
+    }
+    .project_tag {
+        padding: 100px 20px;
+    }
+    .project_tag .dev {
+        font-size: 2rem;
+        left: 30%;
+    }
+    .project_tag .img {
+        height: 180px;
+        width: 180px;
+        left: 32%;
+    }
+    .project_tag .project_heading {
+        font-size: 2rem;
+    }
+    .project_tag .project_farming {
+        width: 100%;
+        height: 300px;
+        background-size: 100% 100%;
+        padding: 20px;
+    }
+    .project_tag .p2 {
+        background-size: 100% 100%;
+        margin: 30px 0 0 0px;
+        padding: 20px;
+    }
+    .project_tag .project_farming::after {
+        height: 300px;
+    }
+    .project_tag .project_farming::before {
+        font-size: 3rem;
+        top: -0px;
+        right: -0px;
+    }
+    .project_tag .p2::before {
+        top: 0px;
+        left: 0px;
+    }
+    .project_tag .project_farming:hover::before {
+        display: none;
+    }
+    .project_farming .project_requid {
+        transform: scale(0.6);
+    }
+    .project_farming:hover .project_requid {
+        transform: scale(.7);
+    }
+    .project_requid .skill_icon {
+        height: 30px;
+    }
+    .project_requid .skill_icon img {
+        width: 30px;
+    }
+    .project_requid .project_name {
+        font-size: 2rem;
+    }
+    .skill_tag .skill_heading {
+        font-size: 2rem;
+    }
+    .skill_tag .skills {
+        width: 100%;
+        padding: 0 20px;
+        grid-template-columns: 1fr;
+        grid-template-rows: 220px 220px 220px 220px 220px;
+    }
+    .contact .quick {
+        height: 400px;
+        width: 100%;
+        padding: 25px 0 0 70px;
+    }
+    .contact .me {
+        width: 100%;
+        padding: 25px 70px 25px 20px;
+    }
+    .footer .footer_resume {
+        width: 100%;
+        height: 80px;
+        padding: 50px;
+    }
+    .footer .footer_social .icon {
+        margin-left: 170px;
+    }
+    .footer .footer_social p {
+        margin: 17px 0px 0px 142px;
+    }
+}

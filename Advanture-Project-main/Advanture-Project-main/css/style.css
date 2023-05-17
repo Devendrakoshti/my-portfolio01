@@ -1,0 +1,577 @@
+    * {
+        box-sizing: border-box;
+        margin: 0px;
+        padding: 0px;
+        scroll-behavior: smooth;
+    }
+    /* main div start */
+    
+    .main {
+        height: 680px;
+        /* border: 2px solid; */
+        background: url(../image/b1.jpg);
+        background-size: 100% 118%;
+        background-position: center;
+    }
+    
+    .main .adv {
+        height: 80px;
+        /* background: brown; */
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0 30px;
+    }
+    
+    .main .adv p {
+        font-size: 30px;
+        color: #ffffff;
+        font-family: 'Lobster', cursive;
+    }
+    
+    .main .adv ul li {
+        display: inline;
+    }
+    
+    .main .adv ul li a {
+        text-decoration: none;
+        color: #ffffff;
+        padding: 0 16px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        letter-spacing: 2px;
+        font-size: 15px;
+        transition: 1s;
+    }
+    
+    .main .adv ul li a:hover {
+        color: lightgray;
+    }
+    
+    .main .adv .menu {
+        height: 30px;
+        width: 80px;
+        text-align: center;
+        line-height: 30px;
+        border-radius: 20px;
+        background-color: #01d07e;
+        display: none;
+        color: #ffffff;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    
+    .main .thr {
+        height: 210px;
+        width: 33%;
+        border: 5px solid #ffc107;
+        margin: 130px 0 0 120px;
+        position: relative;
+    }
+    
+    .main .thr .joy {
+        height: 150px;
+        width: 100%;
+        background-color: rgba(245, 245, 245, 0.92);
+        position: absolute;
+        top: 120px;
+        left: 110px;
+        padding: 20px 0 0 20px;
+    }
+    
+    .main .thr .joy p {
+        font-size: 36px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    
+    .main .thr .joy div {
+        font-size: 49px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        color: #01d07e;
+    }
+    /* main div end */
+    /* some div start */
+    
+    .some {
+        /* height: 530px; */
+        /* border: 2px solid; */
+        display: flex;
+        justify-content: center;
+        padding: 90px 0px;
+    }
+    
+    .some .dell {
+        /* height: 350px; */
+        width: 82.5%;
+        /* background-color: #ffc107; */
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-rows: 350px;
+        gap: 30px;
+    }
+    
+    .some .dell .dolor {
+        /* background-color: aqua; */
+        box-shadow: -3px -3px 10px black;
+        overflow: hidden;
+    }
+    
+    .some .dell .dolor img {
+        transition: 1s;
+    }
+    
+    .some .dell .dolor img:hover {
+        transform: scale(1.1);
+    }
+    
+    .some .dell .dev .hon {
+        font-weight: bold;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 20px;
+    }
+    
+    .some .dell .dev .word {
+        font-size: 40px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        color: #ffc107;
+        margin-top: 10px;
+    }
+    
+    .some .dell .dev p {
+        color: #545252;
+        line-height: 25px;
+        font-size: 17.9px;
+    }
+    /* some div end */
+    /* tour div start */
+    
+    .tour {
+        /* height: 455px; */
+        background: url(../image/b3.jpg);
+        background-size: cover;
+        background-position: center;
+        text-align: center;
+        padding: 75px 135px;
+    }
+    
+    .tour .hiki {
+        /* background-color: aqua; */
+        display: grid;
+        grid-template-columns: 1.5fr 1.5fr 1.5fr 1.5fr 1.5fr 1.5fr;
+        grid-template-rows: 155px;
+        gap: 25px;
+    }
+    
+    .tour .hiki .air {
+        display: grid;
+        grid-template-rows: 72px 73px;
+        border: 3px solid #ffffff;
+        border-radius: 50%;
+        color: #ffffff;
+        font-size: 37px;
+    }
+    
+    .tour .hiki .air i {
+        padding-top: 30px;
+    }
+    
+    .tour .hiki .air p {
+        color: #ffc107;
+        font-size: 25px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        /* margin-top: 8px; */
+    }
+    
+    .tour .hiki .air:hover {
+        box-shadow: 0 0 20px #b7b7b7;
+    }
+    /* tour div end */
+    /* offer div start */
+    
+    .offer {
+        /* height: 700px; */
+        /* background-color: #01d07e; */
+        padding: 80px 135px;
+    }
+    
+    .offer .places {
+        /* height: 410px; */
+        /* width: 90%; */
+        /* background-color: #ffc107; */
+        display: grid;
+        grid-template-rows: 2fr 2fr;
+        gap: 30px;
+        /* margin: 50px 0; */
+    }
+    
+    .offer .places .fast {
+        display: grid;
+        grid-template-columns: 2fr 2fr 2fr;
+        /* border: 2px solid; */
+        gap: 20px;
+    }
+    
+    .offer .places .fast .team {
+        box-shadow: 0 0 9px #b7b7b7;
+        /* background-color: #01d07e; */
+        padding: 34px 22px;
+        transition: 1s;
+    }
+    
+    .offer .places .fast .team i {
+        font-size: 25px;
+    }
+    
+    .offer .places .fast .team p {
+        font-size: 31px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        color: #01d07e;
+        margin: 8px 0;
+    }
+    
+    .offer .places .fast .team .elit {
+        /* font-size: 31px; */
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        letter-spacing: 1px;
+        color: #545252;
+    }
+    
+    .offer .places .fast .team:hover {
+        background: #eaeaea;
+    }
+    /* offer div end */
+    /* today div start */
+    
+    .today {
+        /* height: 400px; */
+        background-color: aqua;
+        display: grid;
+        grid-template-columns: 2fr 2fr;
+        grid-template-rows: 400px;
+    }
+    
+    .today .sit {
+        background: url(../image/ab4.jpg);
+        background-size: cover;
+    }
+    
+    .today .kit {
+        background: #eaeaea;
+        padding: 70px 95px;
+        position: relative;
+    }
+    
+    .today .kit h1 {
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        color: #01d07e;
+        letter-spacing: 2.5px;
+    }
+    
+    .today .kit .net {
+        margin-top: 30px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        letter-spacing: 1px;
+        color: #545252;
+    }
+    
+    .today .kit::after {
+        content: "";
+        height: 210px;
+        width: 305px;
+        position: absolute;
+        top: 40px;
+        left: -265px;
+        border: 5px solid #01d07e;
+    }
+    /* today div end */
+    /* port div start */
+    
+    .port {
+        /* height: 1000px; */
+        /* background-color: aqua; */
+        padding: 80px 135px;
+    }
+    
+    .port .read {
+        /* height: 530px; */
+        gap: 20px;
+        display: grid;
+        grid-template-rows: 255px 255px;
+        /* background-color: #545252; */
+    }
+    
+    .port .read .box {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    
+    .port .read .box .look {
+        display: grid;
+        grid-template-columns: 255px 255px;
+        gap: 20px;
+    }
+    /* port div END */
+    /* swim div start */
+    
+    .swim {
+        /* background-color: aqua; */
+        display: grid;
+        grid-template-columns: 2fr 2fr;
+        grid-template-rows: 400px;
+    }
+    
+    .swim .water {
+        background-color: #eaeaea;
+        padding: 95px 60px;
+    }
+    
+    .swim h1 {
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        color: #01d07e;
+        letter-spacing: 2.5px;
+        margin: 20px 0;
+    }
+    
+    .swim span {
+        margin-top: 30px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        letter-spacing: .5px;
+        color: #545252;
+    }
+    
+    .swim .more {
+        height: 30px;
+        width: 100px;
+        background-color: #000;
+        color: #ffffff;
+        text-align: center;
+        line-height: 30px;
+        margin-top: 30px;
+    }
+    
+    .swim .more:hover {
+        background-color: #ffffff;
+        color: #000;
+    }
+    
+    .swim .color {
+        background: url(../image/ab4.jpg);
+        background-size: cover;
+        padding: 95px 60px;
+    }
+    
+    .swim .mrp {
+        background: url(../image/g6.jpg);
+        background-size: 130% 100%;
+        background-position: center;
+    }
+    /* swim div end */
+    /* everest div start */
+    
+    .everest {
+        /* height: 500px; */
+        width: 100%;
+        /* background-color: cornflowerblue; */
+        padding: 80px 135px;
+    }
+    
+    .lap {
+        padding-bottom: 50px;
+        text-align: center;
+        /* background-color: aqua; */
+    }
+    
+    .lap .stone {
+        font-weight: bold;
+        font-size: 2vw;
+    }
+    
+    .lap .soil {
+        font-size: 3vw;
+        color: #ffc107;
+        text-align: center;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    
+    .everest .camps {
+        /* background-color: #ffc107; */
+        display: grid;
+        grid-template-rows: 350px;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        gap: 20px;
+    }
+    
+    .everest .camps .join {
+        /* border: 2px solid; */
+        display: grid;
+        grid-template-rows: 1fr 1fr;
+    }
+    
+    .everest .camps .join .blue {
+        /* border: 2px solid red; */
+        background: url(../image/g2.jpg);
+        background-size: cover;
+        padding: 30px 20px;
+    }
+    
+    .everest .camps .join .blue i {
+        color: #ffc107;
+    }
+    
+    .everest .camps .join .g3 {
+        background: url(../image/g4.jpg);
+    }
+    
+    .everest .camps .join .g4 {
+        background: url(../image/g3.jpg);
+    }
+    
+    .everest .camps .join .g5 {
+        background: url(../image/g5.jpg);
+    }
+    
+    .everest .camps .join .red {
+        padding: 25px 0;
+        /* border: 2px solid red; */
+    }
+    
+    .everest .camps .join .red p {
+        color: #ffc107;
+        font-size: 25px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        margin-bottom: 10px;
+    }
+    
+    .everest .camps .join .red span {
+        color: #545252;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    
+    .everest .camps .join .red .kill {
+        margin-top: 20px;
+        display: flex;
+    }
+    
+    .everest .camps .join .red .kill .green {
+        color: #01d07e;
+        margin-right: 70px;
+    }
+    /* everest div end */
+    /* submit div start */
+    
+    .submit {
+        /* height: 500px; */
+        /* background-color: coral; */
+        background: url(../image/b3.jpg);
+        background-size: 100% 100%;
+        text-align: center;
+        padding: 80px 420px;
+    }
+    
+    .submit .snap {
+        /* height: 50px;     */
+        background-color: rgba(245, 245, 245, 0.40);
+        padding: 10px 0;
+    }
+    
+    .submit .snap input {
+        height: 40px;
+        width: 70%;
+        padding-left: 20px;
+    }
+    
+    .submit .snap button {
+        height: 40px;
+        width: 25%;
+        color: #ffffff;
+        background: #01d07e;
+        border: none;
+    }
+    /* submit div end */
+    /* map div start */
+    
+    .map {
+        /* background: greenyellow; */
+        padding: 70px 131px;
+    }
+    
+    .map .first {
+        display: grid;
+        /* grid-template-rows: 450px; */
+        grid-template-columns: 1fr 1fr;
+        /* border: 2px solid red; */
+    }
+    
+    .map .last input {
+        height: 40px;
+        width: 45%;
+        padding-left: 20px;
+        margin: 0px 10px 15px 10px;
+    }
+    
+    .map .last textarea {
+        margin-left: 10px;
+        padding-left: 20px;
+    }
+    
+    .map .last button {
+        height: 40px;
+        width: 95%;
+        background-color: #01d07e;
+        margin: 10px 10px 0 10px;
+        border: none;
+        color: #ffffff;
+    }
+    /* map div end */
+    /* footer div start */
+    
+    .footer {
+        padding: 80px 560px;
+        background-color: #212121;
+    }
+    
+    .footer p {
+        color: #999999;
+        margin: 10px 0;
+    }
+    
+    .footer span {
+        color: #ffffff;
+    }
+    
+    .footer i {
+        padding: 15px 15px;
+        /* border: 2px solid red; */
+        border-radius: 50%;
+        color: #ffffff;
+        margin: 10px;
+        font-size: 10px;
+    }
+    
+    .footer .fa-facebook-f {
+        background-color: #3b5998;
+    }
+    
+    .footer .fa-twitter {
+        background-color: #55acee;
+    }
+    
+    .footer .fa-wifi {
+        background-color: #dd4b39;
+    }
+    
+    .footer .fa-up-long {
+        margin-left: 63px;
+        font-size: 2vw;
+    }
+    
+    .qw {
+        height: 70px;
+        background: #0c0c0c;
+        color: #ffffff;
+        text-align: center;
+        line-height: 70px;
+    }
+    
+    .qw span {
+        color: #e60004;
+    }

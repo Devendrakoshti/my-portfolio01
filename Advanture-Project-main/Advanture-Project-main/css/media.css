@@ -1,0 +1,122 @@
+@media(max-width:600px) {
+    .main {
+        height: 520px;
+    }
+    .main .adv ul {
+        display: none;
+    }
+    .main .adv .menu {
+        display: block;
+    }
+    .main .thr {
+        margin: 80px 0px 0px 15px;
+        height: 175px;
+        width: 80%;
+    }
+    .main .thr .joy {
+        height: 115px;
+        width: 90%;
+        top: 100px;
+        left: 90px;
+    }
+    .main .thr .joy p {
+        font-size: 28px;
+    }
+    .main .thr .joy div {
+        font-size: 38px;
+    }
+    .some {
+        padding: 25px 0;
+    }
+    .some .dell {
+        grid-template-columns: 1fr;
+        padding: 0px 65px;
+    }
+    .some .dell .dev {
+        margin-left: -90px;
+        margin-right: -80px;
+    }
+    .some .dell .dolor {
+        margin: 20px 0;
+    }
+    .tour {
+        padding: 30px 30px;
+    }
+    .tour .hiki {
+        grid-template-columns: 1.5fr 1.5fr;
+    }
+    .offer .places .fast {
+        grid-template-columns: 2fr;
+    }
+    .offer .places {
+        width: 100%;
+    }
+    .offer {
+        padding: 50px 15px;
+    }
+    .offer .places .fast .team i {
+        font-size: 20px;
+    }
+    .offer .places .fast .team p {
+        font-size: 22px;
+    }
+    .offer .places .fast .team .elit {
+        letter-spacing: 0px;
+    }
+    .today {
+        grid-template-columns: 2fr;
+        grid-template-rows: auto;
+    }
+    .today .sit {
+        height: 280px;
+    }
+    .today .kit {
+        padding: 50px 50px;
+    }
+    .today .kit h1 {
+        font-size: 25px;
+    }
+    .today .kit::after {
+        height: 115px;
+        width: 220px;
+        top: -75px;
+        left: 30px;
+    }
+    .port {
+        padding: 0 20px;
+    }
+    .port .read {
+        grid-template-rows: 460px 460px;
+    }
+    .port .read .box {
+        grid-template-columns: 1fr;
+    }
+    .port .read .box .look {
+        grid-template-columns: 220PX 220PX;
+    }
+    .swim {
+        grid-template-columns: 2fr;
+    }
+    .everest {
+        padding: 40px 110px;
+    }
+    .everest .camps {
+        grid-template-columns: 1fr;
+    }
+    .submit {
+        padding: 40px 20px;
+    }
+    .map {
+        padding: 40px 0px;
+    }
+    .map .first {
+        grid-template-columns: 1fr;
+        grid-auto-rows: auto;
+    }
+    .map .last textarea {
+        width: 95%;
+    }
+    .footer {
+        padding: 40px 130px;
+    }
+}

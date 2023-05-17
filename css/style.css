@@ -1,0 +1,388 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.main1 {
+    height: 600px;
+    width: 100%;
+    background: url(../img/background/pxfuel1.jpg);
+    filter: blur(3px);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}
+
+.main .dev {
+    position: absolute;
+    top: -18%;
+    left: 35%;
+    font-size: 4rem;
+    /* color: #94a3ba; */
+    color: #fff;
+    text-shadow: 0 0 10px red;
+}
+
+.project_tag {
+    /* height: 1500px; */
+    width: 100%;
+    background: rgb(231, 231, 231);
+    padding: 70px;
+    position: relative;
+}
+
+.project_tag .img {
+    height: 270px;
+    width: 270px;
+    position: absolute;
+    top: -9%;
+    left: 40%;
+    border-radius: 50%;
+    border: 10px solid #fff;
+    overflow: hidden;
+}
+
+.project_tag .project_heading {
+    color: #e84949;
+    font-family: "Be Vietnam Pro", sans-serif;
+    font-size: 3.5rem;
+}
+
+.blue {
+    color: #343d68;
+}
+
+.project_tag .project_farming {
+    height: 550px;
+    width: 90%;
+    background: linear-gradient(rgba(0, 0, 0, .6), rgba(0, 0, 0, .6)), url(../img/project/Screenshot\ \(5\).png);
+    background-size: cover;
+    background-position: center;
+    margin: 50px 0;
+    padding: 140px 120px 0 120px;
+    position: relative;
+    z-index: 0;
+}
+
+.project_tag .p2 {
+    background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url(../Img/project/Screenshot\ \(3\).png);
+    background-size: cover;
+    background-position: center;
+    margin: 100px 0 0 120px;
+    padding: 140px 120px 0 40%;
+}
+
+.project_tag .project_farming::after {
+    content: "";
+    height: 550px;
+    width: 0;
+    background-color: #3f47804f;
+    position: absolute;
+    top: 0;
+    left: 0%;
+    transition: .7s;
+    z-index: -1;
+}
+
+.project_tag .project_farming:hover::after {
+    width: 100%;
+}
+
+.project_tag .project_farming::before {
+    content: "01";
+    font-size: 13rem;
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #fff;
+    position: absolute;
+    top: -45px;
+    right: -65px;
+    display: none;
+    transition: .7s;
+}
+
+.project_tag .p2::before {
+    content: "02";
+    top: -45px;
+    left: -50px;
+}
+
+.project_tag .project_farming:hover::before {
+    display: block;
+}
+
+.project_farming .project_requid {
+    height: 330px;
+    width: 500px;
+    /* background-color: aqua; */
+    /* border: 2px solid red; */
+    transition: .7s;
+    color: #fff;
+    font-family: "Be Vietnam Pro", sans-serif;
+    font-size: 1.3rem;
+}
+
+.project_farming:hover .project_requid {
+    transform: scale(1.1);
+}
+
+.project_requid .skill_icon {
+    height: 70px;
+    /* border: 2px solid blue; */
+}
+
+.project_requid .project_name {
+    font-size: 3.2rem;
+    color: #fff;
+    padding: 20px 0;
+}
+
+.project_requid .project_defination {
+    font-style: italic;
+}
+
+.project_requid .project_link {
+    height: 60px;
+    width: 150px;
+    margin-top: 30px;
+    border: 3px solid #e84949;
+    border-radius: none;
+    position: relative;
+    overflow: hidden;
+    z-index: 0;
+    transition: .6s;
+}
+
+.project_requid .project_link a {
+    font-size: 18px;
+    text-decoration: none;
+    color: #fff;
+    transition: .7s;
+}
+
+.project_requid .project_link::before {
+    content: "";
+    height: 70px;
+    width: 150px;
+    background: #e84949;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    transition: .7s;
+}
+
+.project_requid .project_link:hover {
+    letter-spacing: 2px;
+}
+
+.project_requid .project_link a:hover {
+    color: #000;
+}
+
+.project_requid .project_link:hover::before {
+    left: 100%;
+}
+
+.skill_tag {
+    /* height: 700px; */
+    background: url(../img/background/pxfuel.jpg);
+    padding: 50px 0;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    /* text-align: center; */
+}
+
+.skill_tag .skill_heading {
+    color: #e84949;
+    font-family: 'Nunito', sans-serif;
+    font-size: 3.5rem;
+    margin-left: 135px;
+}
+
+.skill_tag .skills {
+    /* height: 460px; */
+    width: 1070px;
+    /* border: 2px solid; */
+    margin: 30px auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 220px;
+    gap: 15px;
+}
+
+.skill_tag .skills .s1 {
+    background: #fff;
+    border-radius: 5px;
+    /* border: 1px solid; */
+    text-align: center;
+    padding: 50px;
+    font-family: 'Nunito', sans-serif;
+    font-size: 1.5rem;
+    box-shadow: 0 0 10px grey;
+    transition: 1s;
+}
+
+.skill_tag .skills .s1:hover {
+    background-color: rgba(0, 0, 0, .5);
+    color: #fff;
+}
+
+.contact {
+    /* height: 600px; */
+    background-color: #e84949;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.contact .quick {
+    height: 570px;
+    width: 50%;
+    background-color: #2e4975;
+    padding: 50px 0 0 200px;
+}
+
+.contact .quick .color {
+    color: #fff;
+    font-size: 52px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-bottom: 50px;
+}
+
+.contact .quick .phone {
+    height: 100px;
+    width: 700px;
+    display: flex;
+    color: #fff;
+    font-size: 20px;
+}
+
+.contact .quick .phone .email {
+    height: 100px;
+    width: 120px;
+    /* background-color: aqua; */
+    font-weight: bold;
+}
+
+.contact .quick .phone .email .x {
+    margin: 10px 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.contact .quick .phone .add .y {
+    margin: 10px 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.contact .me {
+    height: 570px;
+    width: 50%;
+    background-color: #bbc8dd;
+    padding: 50px 200px 50px 40px;
+}
+
+.contact .me .contact1 {
+    color: #000;
+    font-size: 46px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-bottom: 50px;
+    /* background-color: #e84949; */
+}
+
+.contact .me .name {
+    display: flex;
+}
+
+.contact .me .name p {
+    height: 25px;
+    width: 50%;
+    color: #474a59;
+    /* background-color: #e84949; */
+}
+
+.contact .me .box {
+    height: 30px;
+    width: 47.5%;
+    border: none;
+    border-bottom: 1px solid #000;
+    background: transparent;
+}
+
+.contact .me .margin {
+    margin-right: 15px;
+}
+
+.contact .me p {
+    margin: 10px 0px;
+    color: #474a59;
+}
+
+.contact .me .ex {
+    width: 100%;
+}
+
+.contact .me button {
+    height: 40px;
+    width: 80px;
+    margin: 20px 0 0 190px;
+    background: transparent;
+}
+
+.footer {
+    height: 210px;
+    width: 100%;
+    background-color: rgb(237, 239, 245);
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.footer .footer_resume {
+    height: 210px;
+    width: 50%;
+    padding: 65px 0px 0px 205px;
+}
+
+.footer .footer_resume .my_resume {
+    height: 50px;
+    width: 100%;
+    border: 2px solid #070a0e;
+    text-align: center;
+    line-height: 50px;
+    color: #000;
+}
+
+.footer .footer_resume .my_resume a {
+    text-decoration: none;
+    color: #070a0e;
+}
+
+.footer .footer_resume .my_resume:hover {
+    background-color: #fff;
+}
+
+.footer .footer_social {
+    height: 210px;
+    padding-top: 65px;
+}
+
+.footer .footer_social .icon {
+    margin-left: 195px;
+}
+
+.footer .footer_social .icon i {
+    /* padding: 10px 10px; */
+    height: 40px;
+    width: 40px;
+    font-size: 1.3rem;
+    background-color: #000;
+    color: #fff;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 40px;
+    margin-right: 15px;
+}
+
+.footer .footer_social p {
+    margin: 17px 0px 0px 170px;
+}
